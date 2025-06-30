@@ -1,6 +1,7 @@
 import './App.css';
+import Crochets from './pages/Crochets';
 import Home from './pages/Home';
-import Page1 from './pages/Page1';
+import Jewelry from './pages/Jewelry';
 import { Routes, Route } from 'react-router-dom';
 
 export default function App() {
@@ -9,7 +10,8 @@ export default function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/home' element={<Home />} />
-        <Route path='/page1' element={<Page1 />} />
+        <Route path='/jewelry' element={<Jewelry />} />
+        <Route path='/crochets' element={<Crochets />} />
       </Routes>
     </div>
   );
