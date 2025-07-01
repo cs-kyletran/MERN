@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'inter', 'Noto Sans'
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    margin: 100px
+}
+
+.login-container {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    border-color: grey;
+    background-color: white
+}
+
+.email-password-container p{
+    margin-bottom: 0.2rem
+}
+
+.email-password-container input{
+    background-color: white;
+}
+
+.seperator-block {
+    margin-top: 0.5rem
+}
+
+.submit-button {
+    padding-inline: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(52, 155, 235);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}

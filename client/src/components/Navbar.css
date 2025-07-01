@@ -47,9 +47,3 @@ body {
     font-weight: 600;
     border-bottom: 2px solid black;
 }
-
-.nav-divider {
-    border: none;
-    border-bottom: 2px solid black;
-    margin: 0;
-}

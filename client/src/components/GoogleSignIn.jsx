@@ -1,3 +1,4 @@
+import './GoogleSignIn.css'
 import { signInWithPopup } from "firebase/auth";
 import { auth, googleProvider } from '/firebase/firebaseConfig';
 
@@ -10,13 +11,15 @@ export default function GoogleSignIn() {
             console.log(user);
         } catch (error) {
             console.log('Google Sign-In Error', error);
-            alert(error.message);
         }
     }
 
     return (
-        <button onClick={handleGoogleSignIn} className="google-button">
-            Sign In
-        </button>
+        <div className="google-sign-in">
+            
+            <button onClick={handleGoogleSignIn} className="google-button">
+                <img src='/google.png' alt='google.png' className='google-logo' /> Sign In
+            </button>
+        </div>
     )
 }
