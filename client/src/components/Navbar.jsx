@@ -10,7 +10,6 @@ export default function Navbar() {
                     <li><NavLink to="/crochets" className={({ isActive }) => isActive ? 'active' : ''}>Crochets</NavLink></li>
                     <li><NavLink to="/jewelry" className={({ isActive }) => isActive ? 'active' : ''}>Jewelry</NavLink></li>
                 </ul>
-                <hr className="nav-divider" />
             </div>
         </nav>
     )
